@@ -1,0 +1,36 @@
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    
+    #print {
+        display: none;
+        visibility: none;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #FAFAFA;
+        font: 12pt "Tahoma";
+    }
+    
+    .none {
+        display: none;
+    }
+    
+    .main-footer {
+        display: none;
+    }
+    
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    
+    .invoice1 {
+        width: 21cm;
+        min-height: 29.7cm;
+        padding: 0.5cm;
+        margin: 1.5cm auto;
+    }
